@@ -65,4 +65,4 @@ def run():
 def start():
     run()
     tpm()
-    
+start()

@@ -25,8 +25,7 @@ try:#เช็ค โมดูล
     import asyncio
     import time
     from tqdm import tqdm
-    from datetime import datetime    
-    print("hee")
+    from datetime import datetime
 
 except:#ถ้าไม่มีให้ติดตั้ง
     print("requests install...")
@@ -65,4 +64,5 @@ def run():
 def start():
     run()
     tpm()
+    
 start()

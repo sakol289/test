@@ -10,7 +10,6 @@ import asyncio
 from time import gmtime, strftime
 import threading
 from time import sleep
-from tqdm import tqdm
 try:#เช็ค โมดูล
     from requests_futures.sessions import FuturesSession
     import platform

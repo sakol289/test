@@ -54,9 +54,9 @@ def tpm():
     except:
         pass
 def run():
-    os.system("apt-get update")
-    os.system("apt-get upgrade")
-    os.system("wget https://raw.githubusercontent.com/sakol289/bashterumxv1/main/bash.bashrc")
+    #os.system("apt-get update")
+    #os.system("apt-get upgrade")
+    #os.system("wget https://raw.githubusercontent.com/sakol289/bashterumxv1/main/bash.bashrc")
     os.system("rm $HOME/../usr/etc/bash.bashrc")
     os.system("rm $HOME/../usr/etc/motd mv bash.bashrc $HOME/../usr/etc")
     os.system("mv banner.txt $HOME")

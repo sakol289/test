@@ -8,7 +8,6 @@ import time
 from re import search
 import asyncio
 from time import gmtime, strftime
-from parinya import LINE
 import threading
 from time import sleep
 from tqdm import tqdm
@@ -26,6 +25,7 @@ try:#เช็ค โมดูล
     from requests_futures.sessions import FuturesSession
     import asyncio
     import time
+    from tqdm import tqdm
     from datetime import datetime    
     print("hee")
 
